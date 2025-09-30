@@ -10,7 +10,7 @@ const App: React.FC = () => {
   const [lastPos, setLastPos] = useState<{ x: number; y: number }>({ x: 0, y: 0 });
 
   // Use environment variable in production for security
-  const API_KEY = 'AIzaSyAHQvJsQKWyWDDEJvYOk1px8bJtsPiHap8';
+  const API_KEY = 'YOUR_KEY_HERE';
 
   const genAI = new GoogleGenerativeAI(API_KEY);
   const generationConfig = {
